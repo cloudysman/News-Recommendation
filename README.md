@@ -1,36 +1,15 @@
-# News Recommendation System
+![image](https://github.com/user-attachments/assets/b92bd437-1b2f-4dae-8778-4c4a04bdb8ba)# News Recommendation System
 
 This repository contains the implementation of a news recommendation system using deep learning models. The system utilizes decoders for both news and user encoding, and employs a click predictor to recommend news articles.
 
 ## Project Structure
+![image](https://github.com/user-attachments/assets/cb19ce40-422c-47c1-bc5f-633c3589bbe1)
 
-News_Recommend_System/
-│
-├── data/
-│ ├── MINDsmall_dev/
-│ │ ├── behaviors.tsv
-│ │ ├── entity_embedding.vec
-│ │ ├── news.tsv
-│ │ ├── relation_embedding.vec
-│ ├── MINDsmall_train/
-│ ├── behaviors.tsv
-│ ├── entity_embedding.vec
-│ ├── news.tsv
-│ ├── relation_embedding.vec
-│
-├── models/
-│ ├── pycache/
-│ ├── click_predictor.py
-│ ├── news_decoder.py
-│ ├── recommendation_model.py
-│ ├── user_decoder.py
-│
-├── train.py
-├── utils.py
-├── README.md
 
 ## Issue Encountered
 When running the train.py file, an error occurs during the data loading process. The error traceback indicates an issue with the conversion of data to tensors. Below is the detailed error message:
+
+
 Traceback (most recent call last):
   File "c:\Users\trong\Documents\News_Recommend_System\train.py", line 101, in <module>
     for batch in train_loader:
@@ -52,4 +31,6 @@ Traceback (most recent call last):
     tensor_list.append(torch.tensor(sub_list, dtype=dtype))
                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: not a sequence
+
+
 ![Error Screenshot](https://github.com/cloudysman/News-Recommendation/blob/master/error.jpg)
