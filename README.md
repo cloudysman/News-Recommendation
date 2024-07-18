@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b92bd437-1b2f-4dae-8778-4c4a04bdb8ba)# News Recommendation System
+# News Recommendation System
 
 This repository contains the implementation of a news recommendation system using deep learning models. The system utilizes decoders for both news and user encoding, and employs a click predictor to recommend news articles.
 
