@@ -1,6 +1,6 @@
 # News Recommendation System
 
-This repository contains the implementation of a news recommendation system using deep learning models. The system utilizes decoders for both news and user encoding, and employs a click predictor to recommend news articles.
+My repository contains the implementation of a news recommendation system using deep learning models. The system utilizes decoders for both news and user encoding, and employs a click predictor to recommend news articles.
 
 ## Project Structure
 ![image](https://github.com/user-attachments/assets/cb19ce40-422c-47c1-bc5f-633c3589bbe1)
