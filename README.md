@@ -4,29 +4,29 @@ This repository contains the implementation of a news recommendation system usin
 
 ## Project Structure
 News_Recommend_System/
-│
-├── data/
-│ ├── MINDsmall_dev/
-│ │ ├── behaviors.tsv
-│ │ ├── entity_embedding.vec
-│ │ ├── news.tsv
-│ │ ├── relation_embedding.vec
-│ ├── MINDsmall_train/
-│ ├── behaviors.tsv
-│ ├── entity_embedding.vec
-│ ├── news.tsv
-│ ├── relation_embedding.vec
-│
-├── models/
-│ ├── pycache/
-│ ├── click_predictor.py
-│ ├── news_decoder.py
-│ ├── recommendation_model.py
-│ ├── user_decoder.py
-│
-├── train.py
-├── utils.py
-├── README.md
+  │
+  ├── data/
+  │ ├── MINDsmall_dev/
+  │ │ ├── behaviors.tsv
+  │ │ ├── entity_embedding.vec
+  │ │ ├── news.tsv
+  │ │ ├── relation_embedding.vec
+  │ ├── MINDsmall_train/
+  │ ├── behaviors.tsv
+  │ ├── entity_embedding.vec
+  │ ├── news.tsv
+  │ ├── relation_embedding.vec
+  │
+  ├── models/
+  │ ├── pycache/
+  │ ├── click_predictor.py
+  │ ├── news_decoder.py
+  │ ├── recommendation_model.py
+  │ ├── user_decoder.py
+  │
+  ├── train.py
+  ├── utils.py
+  ├── README.md
 ## Issue Encountered
 When running the train.py file, an error occurs during the data loading process. The error traceback indicates an issue with the conversion of data to tensors. Below is the detailed error message:
 Traceback (most recent call last):
